@@ -11,3 +11,4 @@ def creaBaraja():
     return baraja
         
 creaBaraja()
+print(baraja)
