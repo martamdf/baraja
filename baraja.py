@@ -22,3 +22,12 @@ def barajar(lista_de_naipes):
         lista_de_naipes[nueva_pos] = lista_de_naipes[i]
         lista_de_naipes[i]=aux
     return lista_de_naipes
+
+mazacote = creaBaraja()
+barajar(mazacote)
+print(mazacote)
+
+''' 
+también se podría hacer con:
+print(barajar(creaBaraja()))
+'''
