@@ -13,7 +13,7 @@ class Baraja():
     def repartir(self, num_jugadores, num_cartas):
         jugadores = []
         for i in range(num_jugadores):
-            jugadores.append()
+            jugadores.append([])
 
         for carta in range(num_cartas):
             for jugador in range(num_jugadores):

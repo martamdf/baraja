@@ -7,9 +7,3 @@ miBaraja = barajaC.Baraja(palos, numeros)
 
 print(miBaraja.mazacote)
 print(miBaraja.repartir(3,5))
-'''
-.mazacote)
-
-barajaC.baraja(miBaraja.mazacote)
-print(miBaraja.mazacote)
-'''
